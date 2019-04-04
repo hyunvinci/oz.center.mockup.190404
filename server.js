@@ -3,7 +3,7 @@ var path = require('path');
 
 var app = express();
 
-var readline = require('reqadline-sync');
+var readline = require('readline-sync');
 
 var port = readline.question('Port number is ');
 
